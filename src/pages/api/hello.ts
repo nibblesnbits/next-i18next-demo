@@ -7,5 +7,5 @@ export default async function handler(
   res: NextApiResponse
 ) {
   const t = i18n?.isInitialized ? i18n.t : await i18n!.init();
-  res.status(200).json({ message: t("api") as string });
+  res.status(200).json({ message: t("api.message") as string });
 }

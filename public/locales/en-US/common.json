@@ -1,5 +1,7 @@
 {
   "static": "static",
   "ssr": "ssr",
-  "api": "api"
+  "api": {
+    "message": "Hello World!"
+  }
 }
