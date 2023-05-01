@@ -1,5 +1,5 @@
 {
-  "ui": "ui",
+  "static": "static",
   "ssr": "ssr",
   "api": "api"
 }
